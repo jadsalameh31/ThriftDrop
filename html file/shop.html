@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Start Shopping!</title>
+	<link rel="stylesheet" href="C:\Users\user\Desktop\Web project\css file\css.css">
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+     
+<script>
+
+function myFunction() {
+var input, filter, ul, li, a, i, txtValue;
+input = document.getElementById("myInput");
+filter = input.value.toUpperCase();
+ul = document.getElementById("container");
+li = ul.getElementsByTagName("main");
+for (i = 0; i < li.length; i++) {
+a = li[i].getElementsByTagName("h3")[0];
+txtValue = a.textContent || a.innerText;
+if (txtValue.toUpperCase().indexOf(filter) > -1) {
+li[i].style.display = "";
+}
+else {
+li[i].style.display = "none";
+/*let message = document.getElementById('not-found')
+message.innerHTML = "No results found";*/
+}
+}
+}
+/*<figcaption class="figcap">Macrame Long Dress <br><br> 25$</figcaption>
+.figcap, .figcap2{
+
+    color: #a46c64;
+    
+}*/
+</script>
+
+
+</head>
+
+<body>
+    <nav>
+            <label for="check" class="checkbotton">
+                <i class="gg-menu"></i>
+            </label>
+            <label><img class="logo" src="C:\Users\user\Desktop\Web project\media\logo.jpg" /></label>
+            <ul>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\index.html">Home</a></li>
+                <li><a class="active" href="C:\Users\user\Desktop\Web project\html file\shop.html">Shop</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\sell.html">Sell</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\YourProducts.html">Your Products</a></li>
+                <li><a class="pp" href="C:\Users\user\Desktop\Web project\html file\login.html">Profile</a></li>
+                <li><a  href="C:\Users\user\Desktop\Web project\html file\about.html">About</a></li>  
+                <li class="cart"><a href="C:\Users\user\Desktop\Web project\html file\cartpage.html">Cart: <span> 0</span></a></li>
+
+            </ul>
+        </nav>
+
+<input type="text" id="myInput" onkeyup="myFunction()" autocomplete="off" placeholder="Search products...">
+
+<div id="container">
+</div>
+
+<div class="women">
+<h1>Ready to Wear <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dresses</h1>
+<h2>Glamorous, graceful, and elegant. Shop the perfect dress<br>for any occasion, from short to midi to maxi in a range of <br>&nbsp materials and prints from silk to crepe, embroidered or<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp embellished.</h2>
+</div>
+	<div class="box1">
+	 <img src="C:\Users\user\Desktop\Web project\css file\image1.jpeg">
+">
+	</div>
+
+<div class="dresses">
+	<div class="dress1">
+	<img src="C:\Users\user\Desktop\Web project\css file\dress1.png" width="330" height="500">
+    <figcaption class="figcap">Macrame Long Dress <br><br> 25$</figcaption>
+    <div class="overlay"></div>
+  <div class="button"><a class ="add-cart" href="#"> Add to cart </a>
+  	<div class="desc">Condition: like New<br><br><br>Available Size: M </div>
+</div>
+    </div>	
+   <div class="dress2">
+	<img src="C:\Users\user\Desktop\Web project\css file\dress2.jpg" width="330" height="500">
+    <figcaption class="figcap">Rosey Dress <br><br> 35$</figcaption>
+    <div class="overlay"></div>
+  <div class="button"><a class ="add-cart" href="#"> Add to cart </a>
+  	<div class="desc">Condition: Used<br><br><br>Available Size: S</div>
+</div>
+    </div>
+  
+<div class="dress3">
+    <img  src="C:\Users\user\Desktop\Web project\css file\dress3.png" width="330" height="500">
+    <figcaption class="figcap2">Gold Dress<br><br> 40$</figcaption>
+  <div class="overlay"></div>
+  <div class="button"><a  class ="add-cart" href="#"> Add to cart </a>
+  <div class="desc">Condition: New<br><br><br>Available Size:  XS</div>
+</div>
+</div>
+
+<div class="dress4">
+	<img src="C:\Users\user\Desktop\Web project\css file\dress4.jpg" width="330" height="500">
+	<figcaption class="figcap2">Red V-neck Dress<br><br>75$</figcaption>
+	<div class="overlay"></div>
+  <div class="button"><a class ="add-cart" href="#"> Add to cart </a>
+  	<div class="desc">Condition:  New<br><br><br>Available Size: L </div>
+</div>
+</div>
+<div class="dress5">
+	<img src="C:\Users\user\Desktop\Web project\css file\dress5.jpg" width="330" height="500">
+	<figcaption class="figcap2">Black Elegant Dress<br><br>50$</figcaption>
+	<div class="overlay"></div>
+  <div class="button"><a class ="add-cart" href="#"> Add to cart </a>
+  	<div class="desc">Condition: Used<br><br><br>Available Size: M </div>
+</div>
+</div>
+
+
+
+<div class="dress6">
+    <img  src="C:\Users\user\Desktop\Web project\css file\dress6.jpg" width="330" height="500">
+    <figcaption class="figcap2">Royal Dress<br><br> 60$</figcaption>
+    <div class="overlay"></div>
+  <div class="button"><a class ="add-cart" href="#"> Add to cart </a>
+  	<div class="desc">Condition: Used<br><br><br>Available Size: M </div>
+</div>
+
+</div>
+</div> 
+
+<script src="C:\Users\user\Desktop\Web project\main js\js.js"></script>
+
+</body>
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="C:\Users\user\Desktop\Web project\html file\about.html">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+
+<div class="row">
+ Copyright © 2021 - All rights reserved 
+</div>
+</div>
+</footer>
+</html>

@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+
+
+
+}
+body{
+background-color: #f1e0d0;
+
+}
+.logo {
+display: flex;
+height: 70px;
+width: 100px;
+margin-left: 60px;
+margin-top: 10px;
+}
+
+
+
+nav ul {
+margin-top: -60px;
+float: right;
+margin-right: 70px;
+}
+nav ul li {
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a {
+color: #703b0f;
+font-size: 20px;
+padding: 6px 12px;
+border-radius: 30px;
+text-transform: uppercase;
+}
+a:hover {
+background: #d3b9a2;
+transition: .5s
+}
+
+
+
+
+.Heading{
+font-size: 20px;
+font-weight: 700;
+color: #2F3841;
+}
+.product{
+margin: auto;
+width: 90%;
+height: 33%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+article{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 200px;
+width: 90%;
+}
+.text{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 180px;
+margin: 10px 0;
+color: #703b0f;
+}
+.text h3{
+width: 50%;
+}
+.text p{
+font-weight: bold;
+font-size: 18px;
+}
+.baskettotalcontainer{
+color:#703b0f;
+}
+.container{
+border-bottom: 2px solid #703b0f;
+padding: 30px 20px;
+width: 95%;
+margin-left: auto;
+margin-left: auto;
+}
+.Total{
+font-size: 22px;
+font-weight: 700;
+color: #202020;
+}
+.items{
+font-size: 16px;
+font-weight: 500;
+color: #909090;
+line-height: 10px;
+}
+.total-amount{
+font-size: 36px;
+font-weight: 900;
+color: #202020;
+}
+.Header{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:200px;
+margin: 50px 0;
+margin-left: auto;
+margin-right: auto;
+}
+.Action{
+font-size: 20px;
+font-weight: 600;
+color: #703b0f;
+cursor: pointer;
+border: 1px solid #d3b9a2;
+background: #d3b9a2;
+border-radius: 30px;
+padding: 10px;
+}
+.continue{
+width: 100%;
+float: right;
+background: none;
+color: #703b0f;
+font-weight: bold;
+font-size: 23px;
+cursor: pointer;
+padding: 8px;
+border: 2px solid #703b0f;
+border-radius: 30px;
+
+
+
+}
+.continue:hover { /*button selection white */
+background-color: #d3b9a2;
+border: 2px solid #d3b9a2;
+color: #703b0f;
+text-decoration: none;
+transition: all 0.5s ease 0s;
+}
+.btn-a:hover { /*button selection white */
+transition: all 1s ease 0s;
+}

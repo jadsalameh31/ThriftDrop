@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+ body{
+ background-color: #f1e0d0 ;
+
+    }
+.logo {
+	display: flex;
+	height: 70px;
+	width: 100px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+nav ul {
+margin-top: -60px;
+float: right;
+margin-right: 70px;
+}
+nav ul li {
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a {
+color: #703b0f;
+font-size: 20px;
+padding: 6px 12px;
+border-radius: 30px;
+text-transform: uppercase;
+}
+a:hover {
+background: #d3b9a2;
+transition: .5s
+}
+
+.grid {
+  /*display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;*/
+  width: 20%;
+height: auto;
+margin-bottom:40px;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+  color: white;
+}
+
+.container{
+
+margin-top: 100px;
+position: relative;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 100px;
+gap: 30px;
+
+}
+
+/*.descriptions-header{
+
+   
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 5px solid white;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+.dressname
+{
+	width: 45%;
+	 font-size: 25px;
+    color: white;
+
+}
+
+.size
+{
+   width:  15%;
+   display: flex;
+   align-items: center;
+ font-size: 25px;
+ color: white;
+   
+
+}
+
+.price
+{
+   width: 0%;
+   display: flex;
+   align-items: center;
+   font-size: 25px;
+    color: white;
+}
+
+
+.card img 
+{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 210px;
+}
+.card figcaption
+{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 270px;
+	font-size: 20px;
+	color: white;
+}
+.card .cardsize
+{
+position: absolute;
+	margin-top: 222px;
+	margin-left: 470px;
+	font-size: 20px;
+	color: white;
+
+}
+
+.card .cardprice
+{
+	position: absolute;
+	margin-top: 222px;
+	margin-left: 610px;
+	font-size: 20px;
+	color: white;
+}
+.card{
+	position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+column-gap: 30px;
+grid-row-gap: 30px;
+}
+*/
+

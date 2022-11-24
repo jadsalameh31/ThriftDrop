@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Your Profile</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\user\Desktop\Web project\css file\profile css.css" />
+        <link href='https://css.gg/menu.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <!-- Nvigation Bar -->
+
+            <nav>
+            <label for="check" class="checkbotton">
+                <i class="gg-menu"></i>
+            </label>
+            <label><img class="logo" src="C:\Users\user\Desktop\Web project\media\logo.jpg" /></label>
+            <ul>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\index.html">Home</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\shop.html">Shop</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\sell.html">Sell</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\YourProducts.html">Your Products</a></li>
+                <li><a class="pp" href="C:\Users\user\Desktop\Web project\html file\login.html">Profile</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\about.html">About</a></li>  
+                <li class="cart"><a href="C:\Users\user\Desktop\Web project\html file\cartpage.html">Cart: <span> 0</span></a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Profile rectangle container -->
+
+        <div class="container">
+            <div class="cover-photo">
+                <img src="C:\Users\user\Desktop\Web project\css file\head_logo.png" class="profile" />
+
+                <p class="yourinfo">Your Info :</p>
+
+                <!-- table info -->
+                <table class="table_data">
+                    <tr>
+                        <td>First Name:</td>
+                        <td id="fn"></td>
+                    </tr>
+                    <tr>
+                        <td>Second Name:</td>
+                        <td id="sn"></td>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td id="un"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td id="em"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td id="pw"></td>
+                    </tr>
+                </table>
+
+                <button class="viewCart" onclick="tocart()">View Your Cart</button>
+                <button class="delete" onclick="deleteUser()">Log Out</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- Javascript code to display user's info -->
+
+<script type="text/javascript">
+     window.onload =function getValue() {
+
+     let bb = JSON.parse(localStorage.getItem('users'));
+     console.log(bb);
+     document.getElementById('fn').innerHTML = bb[0].firstname;
+     document.getElementById('sn').innerHTML = bb[0].lastname;
+     document.getElementById('un').innerHTML = bb[0].usernameAll;
+     document.getElementById('em').innerHTML = bb[0].emailAll;
+     document.getElementById('pw').innerHTML = bb[0].passwordAll;
+};
+</script>
+
+  <script src="C:\Users\user\Desktop\Web project\main js\main.js"></script>
+  <script src="C:\Users\user\Desktop\Web project\main js\main2.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	background-image: url(background2.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family: 'Playfair Display', serif;
+}
+.title {
+	text-shadow: 1px 1px 4px #A3987C;
+	color: #703b04;
+	font-size: 80px;
+	margin-top: 50px;
+	margin-left: 150px;
+	padding-top: 100px;
+}
+.description p {
+	font-size: 30px;
+	margin-left: 150px;
+	color: #473811;
+}
+.logo {
+	float: left;
+	height: 70px;
+	margin-top: -17px;
+	margin-left: 30px;
+}
+nav ul {
+	margin-top: -30px;
+	float: right;
+	margin-right: 70px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: #703b0f;
+	font-size: 20px;
+	padding: 6px 12px;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+    background: #d3b9a2;
+    transition: .5s;
+}
+.checkbotton{
+	color: white;
+	float: right;
+	margin-right: 30px;
+	margin-top: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+.button-women {
+  margin-left: 250px;
+  margin-top: 170px;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+.button-women:hover {
+  background-color: #fff;
+}
+
+.button-women:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (max-width: 600px){
+	.title {
+		font-size: 50px;
+		margin-left: 25%;
+		padding-bottom: 30px;
+	}
+	.description p {
+		margin-left: 70px;
+		color: white;
+		text-shadow: 1px 1px 4px #473811;
+	}
+	.checkbotton {
+		display: block;
+		margin-left: 200px;
+		margin-top: -20px;
+	}
+	ul {
+		position: fixed;
+		margin-left: -10px;
+		width: 100%;
+		height: 100vh;
+		background-color: #f1e0d0;
+		top: 100px;
+		left: 100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li {
+		display: block;
+		margin: 50px 10px;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a:active{
+		background: none;
+		color: white;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
+
+@media (max-width: 700px) {
+  .logo{
+  	display: none;
+  }
+  .button-women {
+  	margin-left: 165px;
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

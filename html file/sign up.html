@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\user\Desktop\Web project\css file\sign up.css">
+
+   <!-- CSS Library from web -->
+	<link href='https://css.gg/menu.css' rel='stylesheet'>
+
+</head>
+<body>
+
+      <!-- Navigation Bar -->
+   <nav>
+            <label for="check" class="checkbotton">
+                <i class="gg-menu"></i>
+            </label>
+            <label><img class="logo" src="C:\Users\user\Desktop\Web project\media\logo.jpg" /></label>
+            <ul>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\index.html">Home</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\shop.html">Shop</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\sell.html">Sell</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\YourProducts.html">Your Products</a></li>
+                <li><a class="pp" href="C:\Users\user\Desktop\Web project\html file\login.html">Profile</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\about.html">About</a></li>  
+                <li class="cart"><a href="C:\Users\user\Desktop\Web project\html file\cartpage.html">Cart: <span> 0</span></a></li>
+
+            </ul>
+        </nav>
+
+   <!-- Sign up -->
+<div class="box">
+    <div class="container">
+    	<h2>Sign Up</h2>
+    </div>
+    <form role:="form" onsubmit="signUp(event);">
+     <div class="form-group">
+        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+     </div>
+     <div class="form-group">
+        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+      </div>
+       <div class="form-group">
+        <input type="text" name="username" id="username" placeholder="Username" required>
+      </div>
+     <div class="form-group">
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+     </div>
+     <div class="form-group">
+        <input type="password" name="pwd" id="password" placeholder="Password" required>
+     </div>
+     <div class="form-group">
+     	<button type="button" onclick="addUser()"> Sign Up</button>
+     </div>
+   </form>
+</div>
+
+<script src="C:\Users\user\Desktop\Web project\main js\main.js"></script>
+<script src="C:\Users\user\Desktop\Web project\main js\main2.js"></script>
+   
+</body>
+</html>

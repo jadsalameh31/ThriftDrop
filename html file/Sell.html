@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sell Your Product</title>
+	
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>    
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+    body{
+    background-image: url(background5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+.logo{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+nav ul {
+position: relative;
+margin-top: -7px;
+float: right;
+margin-right: 80px;
+}
+nav ul li {
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a {
+color: #703b0f;
+font-size: 20px;
+padding: 6px 12px;
+border-radius: 30px;
+text-transform: uppercase;
+}
+a:hover {
+background: #d3b9a2;
+transition: .5s
+}
+
+input{
+font-family: "Roboto", sans-serif;
+outline: 0;
+background: #f2f2f2;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 10px;
+box-sizing: border-box;
+font-size: 14px;
+}
+#add-card{
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background-color: #f1e0d0;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #703b04;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+.container{
+	border-radius: 30px;
+position: relative;
+left: 1000px;
+top: 150px;
+background: #FFFFFF;
+max-width: 400px;
+padding: 40px;
+text-align: center;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+
+
+	</style>     
+</head>
+
+<body>
+	<nav>
+            <label for="check" class="checkbotton">
+                <i class="gg-menu"></i>
+            </label>
+            <label><img class="logo" src="C:\Users\user\Desktop\Web project\media\logo.jpg" /></label>
+            <ul>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\index.html">Home</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\shop.html">Shop</a></li>
+                <li><a class="active" href="C:\Users\user\Desktop\Web project\html file\sell.html">Sell</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\YourProducts.html">Your Products</a></li>
+                <li><a class="pp" href="C:\Users\user\Desktop\Web project\html file\login.html">Profile</a></li>
+                <li><a href="C:\Users\user\Desktop\Web project\html file\about.html">About</a></li>  
+                <li class="cart"><a href="C:\Users\user\Desktop\Web project\html file\cartpage.html">Cart: <span> 0</span></a></li>
+
+            </ul>
+        </nav>
+<div class="container">
+		
+		<form>
+			<input type="text" id="title" placeholder="Enter dress name">
+			<input type="text" id="description" placeholder="Enter dress size.">
+			<input type="number" id="price" min="0" max="5000" placeholder="Enter price">
+         <input type="file"  id="files" accept="image/png, image/jpg"  placeholder="enter image" >
+       	<input type="button" id="add-card" value="Add Item" onClick="addCard()">
+		</form>
+		
+	</div>
+	
+<script src="C:\Users\user\Desktop\Web project\main js\js2.js"></script>
+
+	
+
+ 
+
+</body>
+</html>
